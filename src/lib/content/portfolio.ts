@@ -25,7 +25,7 @@ export const seoData = {
     'Reet Kumar Bind is a software engineer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
   image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
+    'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS6u1VtrigqPm3Lck0k_VbU92Q-8DB7ej2hld-OJxXg60-9CqFI-nrIPf-v2m2ek51GazW666RFOHsL5KQk2M2LCnaRm7kxIibkOpTWTb2023Tu8RTCxSS7GMTlFzZGGfgoCc_ew2afVvS-oDBwQLwBIA87olmLosRg9Zuxf-1S3orC4NagjwjboDONWI/s1600/Screenshot%202024-08-11%20140354.png',
   url: 'https://reetkumar.vercel.app/',
   keywords: [
     'Reet',
