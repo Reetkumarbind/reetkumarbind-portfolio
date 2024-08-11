@@ -1,8 +1,8 @@
 <h1 align="center">
-  vatsalsinghkv.vercel.app
+  reetkumarbind-portfolio.vercel.app
 </h1>
 <p align="center">
-  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">vatsalsinghkv.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  A portfolio website i.e. <a href="https://reetkumarbind-portfolio.vercel.app" target="_blank"> reetkumarbind-portfolio.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
@@ -108,13 +108,13 @@ Remember, Good PR makes you a Good contributor!
 
 ## Contact
 
-- Discord - [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
-- Website - [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app)
-- Github - [@vatsalsinghkv](https://github.com/vatsalsinghkv)
-- LinkedIn - [@vatsalsinghkv](https://www.linkedin.com/in/vatsalsinghkv/)
-- Twitter - [@vatsalsinghkv](https://www.twitter.com/vatsalsinghkv)
-- Instagram - [@vatsalsinghkv](https://www.instagram.com/vatsalsinghkv)
-- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv)
+- Discord - [https://discord.com/reet_40373](https://discord.gg/reet_40373)
+- Website - [reetkumarbind-portfolio.vercel.app](https://reetkumarbind-portfolio.vercel.app)
+- Github - [@reetkumarbind](https://github.com/reetkumarbind)
+- LinkedIn - [@reetkumarbind](https://www.linkedin.com/in/reetkumarbind/)
+- Twitter - [@REETMEENA](https://www.twitter.com/REETMEENA)
+- Instagram - [@reetkumarbind](https://www.instagram.com/reetkumarbind)
+- Facebook - [@reetkumarbind](https://www.facebook.com/reetkumarbind)
 
 ## Acknowledgements
 
@@ -126,4 +126,4 @@ Remember, Good PR makes you a Good contributor!
 
 Give a ⭐️ if you liked this project!
 
-[Scroll to Top](#--vatsalsinghkvvercelapp)
+[Scroll to Top](#--reetkumarbind-portfolio.vercel.app)
