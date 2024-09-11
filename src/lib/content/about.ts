@@ -13,7 +13,6 @@ export const aboutSection: AboutSectionType = {
       'NextJs',
       'TailwindCSS',
       'ExpressJs',
-      'AI/ML',
       'Prisma',
       'CSS Animations',
       'ReactJs',

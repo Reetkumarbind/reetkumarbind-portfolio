@@ -30,15 +30,14 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
       company: 'Sampark Software',
-      companyUrl: 'https://webnetic.vercel.app/',
-      role: 'frontend developer',
+      companyUrl: 'https://reetkumar.vercel.app/',
+      role: 'Frontend Developer',
       started: 'Nov 2018',
       upto: 'Dec 2020',
       tasks: [
         'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
         'Architected the folder structure and initial setup of the app.',
-        'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
+        'collaborating closely using screen-sharing.',
       ],
     },
   ],
