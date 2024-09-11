@@ -25,5 +25,5 @@ export const aboutSection: AboutSectionType = {
 
     ],
   },
-  img: '/reet.png',
+  img: "/reet.png",
 };
