@@ -6,9 +6,9 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'beautiful animations',
-      url: 'https://beautiful-animations-kv.vercel.app/',
-      repo: 'https://github.com/vatsalsinghkv/beautiful-animations',
+      name: 'beautiful image animations',
+      url: 'https://image-animationbyreet.vercel.app//',
+      repo: 'https://github.com/Reetkumarbind/image-animation',
       img: 'https://user-images.githubusercontent.com/68834718/265277125-da2a6e07-7cf6-411c-b55f-94e372aa6dc8.png',
       year: 2023,
       tags: ['CSS Animations', 'Sass'],
