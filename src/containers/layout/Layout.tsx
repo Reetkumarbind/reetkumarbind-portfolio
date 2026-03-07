@@ -1,3 +1,5 @@
+'use client';
+import { ScrollToTopButton } from '@/components';
 import { Email, Footer, Navbar, Social } from '@/containers';
 
 type Props = {
@@ -17,6 +19,7 @@ const Layout = ({ children, className = '' }: Props) => {
       <Footer />
       <Social />
       <Email />
+      <ScrollToTopButton />
     </>
   );
 };

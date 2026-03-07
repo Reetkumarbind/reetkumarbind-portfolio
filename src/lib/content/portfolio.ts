@@ -26,14 +26,17 @@ export const seoData = {
   author: author.name,
   image:
     'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS6u1VtrigqPm3Lck0k_VbU92Q-8DB7ej2hld-OJxXg60-9CqFI-nrIPf-v2m2ek51GazW666RFOHsL5KQk2M2LCnaRm7kxIibkOpTWTb2023Tu8RTCxSS7GMTlFzZGGfgoCc_ew2afVvS-oDBwQLwBIA87olmLosRg9Zuxf-1S3orC4NagjwjboDONWI/s1600/Screenshot%202024-08-11%20140354.png',
-  url: 'https://reetkumar.vercel.app/',
+  url: 'https://reetkumarbind-portfolio.vercel.app/',
   keywords: [
-    'Reet',
+    'Reet Kumar Bind',
     'Reet Bind',
     '@reetkumarbind',
     'reetkumarbind',
+    'Software Engineer',
+    'Web Developer',
+    'Frontend Developer',
     'Portfolio',
-    'Reet Portfolio ',
-    'Reet Kumar Portfolio',
+    'React Developer',
+    'Next.js Developer',
   ],
 };

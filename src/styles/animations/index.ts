@@ -96,6 +96,116 @@ export const slideUp = ({
   },
 });
 
+// * ENHANCED ANIMATION VARIANTS
+
+/**
+ * Scale in animation - Component grows from 0 to 1 scale
+ */
+export const scaleIn = (delay = 0): Variants => ({
+  hidden: {
+    opacity: 0,
+    scale: 0.8,
+  },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      type: 'spring',
+      stiffness: 200,
+      damping: 20,
+      delay,
+    },
+  },
+});
+
+/**
+ * Rotate in animation - Component rotates while fading in
+ */
+export const rotateIn = (delay = 0): Variants => ({
+  hidden: {
+    opacity: 0,
+    rotate: -10,
+  },
+  show: {
+    opacity: 1,
+    rotate: 0,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 20,
+      delay,
+    },
+  },
+});
+
+/**
+ * Bounce in animation - Elastic entry effect
+ */
+export const bounceIn = (delay = 0): Variants => ({
+  hidden: {
+    opacity: 0,
+    scale: 0.3,
+  },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      type: 'spring',
+      stiffness: 400,
+      damping: 15,
+      delay,
+    },
+  },
+});
+
+/**
+ * Blur fade in - Blur to sharp transition
+ */
+export const blurFadeIn = (delay = 0): Variants => ({
+  hidden: {
+    opacity: 0,
+    filter: 'blur(10px)',
+  },
+  show: {
+    opacity: 1,
+    filter: 'blur(0px)',
+    transition: {
+      duration: 1,
+      delay,
+    },
+  },
+});
+
+/**
+ * Staggered children animation
+ */
+export const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+/**
+ * Item variant for use within staggered container
+ */
+export const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 20,
+    },
+  },
+};
+
 // * SECTION VARIANTS
 
 // * For sections
@@ -131,4 +241,31 @@ export const projectVariants: Variants = {
       // duration: 0.5,
     },
   }),
+};
+
+/**
+ * Enhanced list item variants with stagger
+ */
+export const listVariants: Variants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+export const listItemVariants: Variants = {
+  hidden: { opacity: 0, x: -20 },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 20,
+    },
+  },
 };

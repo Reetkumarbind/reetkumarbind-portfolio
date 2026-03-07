@@ -1,0 +1,29 @@
+# Robots.txt for reetkumarbind-portfolio.vercel.app
+
+User-agent: *
+Allow: /
+Disallow: /.next/
+Disallow: /api/
+Disallow: *.json$
+
+# Allow search engines to index
+Allow: /
+
+# Specify sitemap location
+Sitemap: https://reetkumarbind-portfolio.vercel.app/sitemap.xml
+
+# Google Bot specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing Bot specific rules
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: DotBot
+Disallow: /
