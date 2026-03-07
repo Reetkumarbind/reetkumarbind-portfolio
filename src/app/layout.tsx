@@ -1,8 +1,6 @@
 import { seoData } from '@/lib/content/portfolio';
-import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
-
-import Cursor from '@/components/ui/Cursor';
+import { Providers } from './providers';
 
 import '../styles/globals.css';
 import type { Metadata } from 'next';
@@ -79,8 +77,7 @@ export default function RootLayout({
         <script src="/scripts/no-flash.js" async />
       </head>
       <body className={`text-text bg-bg ${fontVariables}`}>
-        <Cursor className="hidden dark:lg:block" />
-        <ThemeProvider>{children}</ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

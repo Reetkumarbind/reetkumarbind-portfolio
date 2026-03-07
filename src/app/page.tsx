@@ -17,6 +17,9 @@ import type { NextPage } from 'next';
  * TODO: Try test cases
  */
 
+// Disable static generation for this page due to Framer Motion animations
+export const dynamic = 'force-dynamic';
+
 const Home: NextPage = () => {
   return (
     <>

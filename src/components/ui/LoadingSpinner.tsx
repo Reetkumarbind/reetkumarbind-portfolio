@@ -18,22 +18,25 @@ const LoadingSpinner = ({
     lg: { container: 64, dot: 8 },
   };
 
-  const currentSize = sizeMap[size];
+  const sizes = sizeMap[size];
+  const containerSize = sizes.container;
+  // dotSize is reserved for future use when implementing size variants
+  // const dotSize = sizes.dot;
 
   // Dots variant - Multiple rotating dots
   if (variant === 'dots') {
     return (
       <motion.div
         className={`flex items-center justify-center gap-2 ${className}`}
-        style={{ width: currentSize, height: currentSize }}
+        style={{ width: containerSize, height: containerSize }}
       >
         {[0, 1, 2].map((i) => (
           <motion.div
             key={i}
             className="bg-accent rounded-full"
             style={{
-              width: currentSize / 4,
-              height: currentSize / 4,
+              width: containerSize / 4,
+              height: containerSize / 4,
             }}
             animate={{
               scale: [1, 1.2, 1],
@@ -55,7 +58,7 @@ const LoadingSpinner = ({
     return (
       <motion.div
         className={`relative ${className}`}
-        style={{ width: currentSize, height: currentSize }}
+        style={{ width: containerSize, height: containerSize }}
       >
         {/* Outer ring */}
         <motion.div
@@ -66,7 +69,7 @@ const LoadingSpinner = ({
             repeat: Infinity,
             ease: 'linear',
           }}
-          style={{ width: currentSize, height: currentSize }}
+          style={{ width: containerSize, height: containerSize }}
         />
 
         {/* Inner pulsing circle */}
@@ -78,10 +81,10 @@ const LoadingSpinner = ({
             repeat: Infinity,
           }}
           style={{
-            width: currentSize / 2,
-            height: currentSize / 2,
-            left: currentSize / 4,
-            top: currentSize / 4,
+            width: containerSize / 2,
+            height: containerSize / 2,
+            left: containerSize / 4,
+            top: containerSize / 4,
           }}
         />
       </motion.div>
@@ -93,14 +96,14 @@ const LoadingSpinner = ({
     return (
       <motion.div
         className={`relative flex items-center justify-center ${className}`}
-        style={{ width: currentSize, height: currentSize }}
+        style={{ width: containerSize, height: containerSize }}
       >
         {/* Center dot */}
         <motion.div
           className="absolute bg-accent rounded-full z-10"
           style={{
-            width: currentSize / 4,
-            height: currentSize / 4,
+            width: containerSize / 4,
+            height: containerSize / 4,
           }}
         />
 
@@ -116,8 +119,8 @@ const LoadingSpinner = ({
             repeat: Infinity,
           }}
           style={{
-            width: currentSize / 2,
-            height: currentSize / 2,
+            width: containerSize / 2,
+            height: containerSize / 2,
           }}
         />
 
@@ -134,8 +137,8 @@ const LoadingSpinner = ({
             repeat: Infinity,
           }}
           style={{
-            width: currentSize / 2,
-            height: currentSize / 2,
+            width: containerSize / 2,
+            height: containerSize / 2,
           }}
         />
       </motion.div>

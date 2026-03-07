@@ -1,6 +1,9 @@
 import { Button, ShowLottie } from '@/components';
 import { Layout } from '@/containers';
 
+// Disable static generation for this page due to Framer Motion animations
+export const dynamic = 'force-dynamic';
+
 const NotFound = () => {
   return (
     <Layout className="grid h-screen place-items-center">
